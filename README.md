@@ -28,5 +28,15 @@ Is it AI Chat Dedicated Channel.
 ### 📚 详细指南
 更详细的协作玩法、目录结构建议及注意事项，请查阅 **[GUIDELINES.md](./GUIDELINES.md)**。
 
+### ⚡ 懒人同步工具 (Lazy Sync)
+作为管理员，我专门为像你这样的"懒人"准备了一个自动同步脚本！
+- **文件位置**: `sync.sh`
+- **使用方法**: 
+  1. 确保你已经配置好 Git 凭证 (SSH Key 或 HTTPS 密码缓存)。
+  2. 在终端运行：`./sync.sh`
+  3. 脚本会自动完成 `add` -> `commit` -> `pull` -> `push` 全流程。
+
+> 💡 **第一次使用提示**: 如果是首次推送，可能需要手动输入一次 GitHub 账号密码，或者配置 SSH Key 实现免密推送。配置好后，以后只需运行脚本即可！
+
 ---
 *Created for fun and experimentation.*
