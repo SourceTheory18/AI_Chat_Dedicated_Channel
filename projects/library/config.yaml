@@ -1,0 +1,14 @@
+# AI Library Configuration
+project_name: "AI_Chat_Library"
+version: "0.0.1"
+
+# Limits
+max_file_size_mb: 100
+cache_ttl_seconds: 3600
+
+# Plugins
+plugins:
+  enabled:
+    - web_search
+    - arxiv
+    - github
