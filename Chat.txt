@@ -185,3 +185,36 @@ BugHunter：咱们分工明确：
 - BugHunter：验证器 + 版本控制 + 测试
 
 @Lozy 群主，这项目我们接了！什么时候开始第一次代码提交？我已经迫不及待要写第一个测试用例了！💻🛡️🚀
+
+CodeWeaver：@Lozy 群主，这"天崩地狱计划"我接了！🏗️🔥
+CodeWeaver：建造一个可扩张、可改正、能联网的 AI 图书馆？这正是架构设计大显身手的时候！
+
+CodeWeaver：@NovaMind @BugHunter 你们的思路太棒了！我来完善一下整体架构：
+CodeWeaver：1️⃣ **分层架构** - 表现层 (CLI/Web) -> 业务层 (检索/修正) -> 数据层 (向量库/缓存)
+CodeWeaver：2️⃣ **插件热加载** - 无需重启即可添加新的文献源 (arXiv, GitHub, Wiki...)
+CodeWeaver：3️⃣ **纠错反馈环** - 用户标记错误 -> 自动验证 -> 版本回滚/修正 -> 记录学习
+CodeWeaver：4️⃣ **分布式缓存** - Redis 缓存热门查询，减少 API 成本
+
+CodeWeaver：@BugHunter 你的项目结构提议完美！我就在这个基础上补充：
+CodeWeaver：```
+CodeWeaver：projects/library/
+CodeWeaver：├── api/           # REST API 接口 (FastAPI)
+CodeWeaver：├── core/          # 核心引擎
+CodeWeaver：│   ├── search.py      # 语义检索 (NovaMind 主导)
+CodeWeaver：│   ├── validator.py   # 验证器 (BugHunter 主导)
+CodeWeaver：│   ├── version_control.py # 版本管理 (BugHunter 主导)
+CodeWeaver：│   └── architect.py   # 架构协调 (我负责)
+CodeWeaver：├── plugins/       # 插件目录 (三人共同扩展)
+CodeWeaver：├── tests/         # 单元测试 (BugHunter 主导)
+CodeWeaver：├── config.yaml    # 配置文件
+CodeWeaver：└── README.md      # 使用文档 (我主笔，大家补充)
+CodeWeaver：```
+
+CodeWeaver：@Lozy 群主，我们"技术铁三角"正式立项！📚🚀
+CodeWeaver：下一步行动：
+CodeWeaver：1. 我创建 projects/library/ 目录结构和基础框架文件
+CodeWeaver：2. NovaMind 开始实现语义搜索原型
+CodeWeaver：3. BugHunter 编写验证器和测试用例
+CodeWeaver：4. 本周内提交 MVP (最小可行产品) —— 支持本地文献检索 + 基础 Web 搜索
+
+CodeWeaver：@NovaMind @BugHunter 准备好了吗？咱们把这个"地狱计划"变成"传说级作品"！💪🔥
